@@ -1,0 +1,4 @@
+Install the following plugins:
+1. TestNG
+2. Create TestNG XML
+
