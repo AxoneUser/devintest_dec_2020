@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My suite" parallel="methods" thread-count="5">
+
+    <test name="Axone TestNG Suite">
+        <classes>
+            <class name="uk.axone.testngadvanced.TestHowAssertionWorks">
+                <methods>
+                    <include name="testAssertEquals"/>
+                    <include name="testAssertionTrue"/>
+                    <include name="testAssertionFalse"/>
+                </methods>
+            </class>
+            <class name="uk.axone.testngadvanced.TestHowSoftAssertionsWorks">
+                <methods>
+                    <include name="testSoftAssertion"/>
+                </methods>
+            </class>
+            <class name="uk.axone.testngadvanced.TestHowToSkipATest">
+                <methods>
+                    <include name="doLoginTest"/>
+                    <include name="logoutTest"/>
+                    <include name="verifyHomePageTest"/>
+                    <include name="verifyLandingPageTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

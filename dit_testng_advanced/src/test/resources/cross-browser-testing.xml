@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameter Suite"  >
+    <test name="Param Suite Test"   >
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="uk.axone.testngadvanced.TestPracticalUsageOfTestNGXML">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Param Suite Test2"   >
+        <parameter name="browser" value="safari"></parameter>
+        <classes>
+            <class name="uk.axone.testngadvanced.TestPracticalUsageOfTestNGXML">
+            </class>
+        </classes>
+    </test>
+
+
+    <test name="Param Suite Test3"   >
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="uk.axone.testngadvanced.TestPracticalUsageOfTestNGXML">
+            </class>
+        </classes>
+    </test>
+
+</suite>
