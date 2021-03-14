@@ -1,0 +1,69 @@
+Xpath - XML Path Lang
+        - Address of a WebElement
+        - alternative locator strategy
+        - when there are no id, name, attributes...
+
+
+Types:
+I. Absolute or Complete Xpath
+/ --> forward slash represents look for the tag immediately present
+
+html/body/div/div/header/div[3]/div/div/div/a/img
+
+How to validate Xpath:
+Inspector window: Ctrl+F or Cmd+F
+
+Adv:
+1. Accurate
+2. Fast
+
+Disadv:
+1. Flaky/Brittle
+
+II. Partial or Relative Xpath
+1. TagName, Attribute, Value ==> Trio
+
+Syntax: //tagname[@attr='value']
+
+2. How to handle xpath dynamically
+//a[text()='Contact Sales']
+
+URL Reference for Xpath Functions:
+https://developer.mozilla.org/en-US/docs/Web/XPath/Functions
+
+3. Using contains
+Syntax: //tagName[contains(@attr, 'value containing text')]
+
+e.g: //button[contains(@id,'ton1')]
+
+
+4. Using starts-with
+Syntax: //tagName[starts-with(@attr, 'value containing text')]
+
+
+e.g: //button[starts-with(@id,'button1')]
+
+
+5. One element can have multiple xpaths
+//input[@id='FirstName']
+//input[@name='FirstName']
+
+6. Logical AND Operator
+
+Syntax: //tag[stmnt1 and stmnt2]
+
+e.,g; //input[@id='user-message' and @class='form-control']
+
+7. Logical OR Operator
+Syntax: //tag[stmnt1 or stmnt2]
+//input[@id='user-message' or @class='form-control']
+
+
+8. Using chained declarations
+- Using multiple xpath stmnts
+
+e.g. //div[@class='form-group']//input[@id='user-message']
+
+9. Following
+
+//form[@id='gettotal']//following::input
