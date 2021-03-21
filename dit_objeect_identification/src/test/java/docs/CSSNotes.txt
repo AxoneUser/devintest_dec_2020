@@ -1,0 +1,80 @@
+CSS - Cascading Style Sheet
+    - determines the color, font, layout and position
+
+Useful references:
+https://www.red-gate.com/simple-talk/wp-content/uploads/imported/1269-Locators_table_1_0_2.pdf?file=4937
+
+
+Basic Syntax:
+1. How to identify ID
+syntax: #idvalue
+e.g: #user-message
+
+2. How to identify class
+syntax: .classname
+e.g.: .form-group
+
+Rules for css compared to xpath
+1. No @ symbols used
+2. '/' replaced with '>' or whitespace
+e.g: form > div > input
+eg2: form div input
+3. // not allowed
+4. id replaced with #
+5. class replaced with .(dot)
+
+1. TagName, attribute, trio
+Syntax for xpath: //tagname[@attr='value']
+syntax for css: tagname[attr='value']
+
+e.g: img[class='logo img-responsive']
+
+2. using contains
+xpath Syntax: //tagName[contains(@attr, 'value containing text')]
+css syntax: tagName[attr*='value containing text']
+
+e.g: input[id*='user-']
+
+3. Using starting text
+syntax: tagName[att^='value']
+
+e.g: input[id^='user-']
+
+4. Ending text of an attribute
+syntax: tagName[att$='value']
+
+e.g: input[id$='age']
+
+5. Logical AND operation
+Two css statements separated with Whitespace
+
+.form-group #user-message
+
+6. Logical OR operation
+Two css statements separated with comma
+.form-group,#user-message
+
+7. first of type
+.tree-branch ul li:first-of-type
+
+8. Last of type
+.tree-branch ul li:last-of-type
+
+Absolute CSS:
+xpath: html/body/div/div/header/div[3]/div/div/div/a/img
+CSS: html body div div header div:nth-child(3) div div div a img
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

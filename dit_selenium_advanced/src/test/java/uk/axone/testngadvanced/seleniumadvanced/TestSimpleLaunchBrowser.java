@@ -1,4 +1,4 @@
-package uk.axone.seleniumadvanced;
+package uk.axone.testngadvanced.seleniumadvanced;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;

@@ -67,3 +67,17 @@ e.g. //div[@class='form-group']//input[@id='user-message']
 9. Following
 
 //form[@id='gettotal']//following::input
+
+Common Errors and mistakes with Xpath:
+NoSuchElementException --> spelling mistakes or it couldn't identify the element with the given specifications.
+InvalidSelectorException --> Syntax errors
+InvalidElementStateException --> typing in a textbox but its disabled.
+                             --> select a value from disabled drop down.
+
+
+
+
+
+
+
+

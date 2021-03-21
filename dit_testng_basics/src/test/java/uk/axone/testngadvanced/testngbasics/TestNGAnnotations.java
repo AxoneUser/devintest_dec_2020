@@ -1,4 +1,4 @@
-package uk.axone.testngbasics;
+package uk.axone.testngadvanced.testngbasics;
 
 import org.testng.annotations.*;
 

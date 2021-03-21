@@ -16,6 +16,7 @@
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <htmlunit-driver.version>2.47.1</htmlunit-driver.version>
         <webdrivermanager.version>4.3.1</webdrivermanager.version>
+        <ashot.version>1.5.4</ashot.version>
     </properties>
 
     <dependencies>
@@ -40,7 +41,11 @@
             <version>${webdrivermanager.version}</version>
             <scope>test</scope>
         </dependency>
-
+        <dependency>
+            <groupId>ru.yandex.qatools.ashot</groupId>
+            <artifactId>ashot</artifactId>
+            <version>${ashot.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

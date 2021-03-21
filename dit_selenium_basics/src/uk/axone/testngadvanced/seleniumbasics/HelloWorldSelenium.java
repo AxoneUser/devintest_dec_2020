@@ -1,4 +1,4 @@
-package uk.axone.seleniumbasics;
+package uk.axone.testngadvanced.seleniumbasics;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 

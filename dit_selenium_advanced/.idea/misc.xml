@@ -4,6 +4,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../dit_testng_basics/pom.xml" />
+        <option value="$PROJECT_DIR$/../dit_testng_advanced/pom.xml" />
+        <option value="$PROJECT_DIR$/../dit_objeect_identification/pom.xml" />
       </list>
     </option>
   </component>
