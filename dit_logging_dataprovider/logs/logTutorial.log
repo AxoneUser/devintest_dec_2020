@@ -1,0 +1,5 @@
+28 Mar 2021 08:20:17,262      DEBUG [uk.axone.logging.TestHowLoggingWorks] This is a debug message 
+28 Mar 2021 08:20:17,266       INFO [uk.axone.logging.TestHowLoggingWorks] This is an information message 
+28 Mar 2021 08:20:17,267       WARN [uk.axone.logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:20:17,269      ERROR [uk.axone.logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:20:17,269      FATAL [uk.axone.logging.TestHowLoggingWorks] This is a fatal message 
