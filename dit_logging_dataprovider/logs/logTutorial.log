@@ -1,5 +1,36 @@
-28 Mar 2021 08:20:17,262      DEBUG [uk.axone.logging.TestHowLoggingWorks] This is a debug message 
-28 Mar 2021 08:20:17,266       INFO [uk.axone.logging.TestHowLoggingWorks] This is an information message 
-28 Mar 2021 08:20:17,267       WARN [uk.axone.logging.TestHowLoggingWorks] This is a warning message 
-28 Mar 2021 08:20:17,269      ERROR [uk.axone.logging.TestHowLoggingWorks] This is an error message 
-28 Mar 2021 08:20:17,269      FATAL [uk.axone.logging.TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:25:15,193       WARN [uk.axone.logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:25:15,196      ERROR [uk.axone.logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:25:15,196      FATAL [uk.axone.logging.TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:25:31,401       WARN [uk.axone.logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:25:31,407      ERROR [uk.axone.logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:25:31,407      FATAL [uk.axone.logging.TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:27:58,361       WARN [uk.axone.logging.TestHowLoggingWorks] This is a warning message28 Mar 2021 08:27:58,364      ERROR [uk.axone.logging.TestHowLoggingWorks] This is an error message28 Mar 2021 08:27:58,364      FATAL [uk.axone.logging.TestHowLoggingWorks] This is a fatal message28 Mar 2021 08:29:14,099       WARN [uk.axone.logging.TestHowLoggingWorks]  
+28 Mar 2021 08:29:14,104      ERROR [uk.axone.logging.TestHowLoggingWorks]  
+28 Mar 2021 08:29:14,104      FATAL [uk.axone.logging.TestHowLoggingWorks]  
+28 Mar 2021 08:32:50,635       WARN [uk.axone.logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:32:50,639      ERROR [uk.axone.logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:32:50,640      FATAL [uk.axone.logging.TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:33:11,667 WARN [uk.axone.logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:33:11,670 ERROR [uk.axone.logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:33:11,671 FATAL [uk.axone.logging.TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:33:56,196  WARN [uk.axone.logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:33:56,200 ERROR [uk.axone.logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:33:56,200 FATAL [uk.axone.logging.TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:34:33,108    WARN [uk.axone.logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:34:33,112   ERROR [uk.axone.logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:34:33,112   FATAL [uk.axone.logging.TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:35:13,261 WARN    [uk.axone.logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:35:13,265 ERROR   [uk.axone.logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:35:13,265 FATAL   [uk.axone.logging.TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:37:32,278 WARN    [TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:37:32,283 ERROR   [TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:37:32,283 FATAL   [TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:38:00,642 WARN    [logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:38:00,645 ERROR   [logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:38:00,645 FATAL   [logging.TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:38:26,059 WARN    [axone.logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:38:26,062 ERROR   [axone.logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:38:26,062 FATAL   [axone.logging.TestHowLoggingWorks] This is a fatal message 
+28 Mar 2021 08:38:39,408 WARN    [uk.axone.logging.TestHowLoggingWorks] This is a warning message 
+28 Mar 2021 08:38:39,412 ERROR   [uk.axone.logging.TestHowLoggingWorks] This is an error message 
+28 Mar 2021 08:38:39,412 FATAL   [uk.axone.logging.TestHowLoggingWorks] This is a fatal message 
