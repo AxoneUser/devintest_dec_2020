@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/../dit_alerts_mousemovements/pom.xml" />
         <option value="$PROJECT_DIR$/../dit_logging_dataprovider/pom.xml" />
         <option value="$PROJECT_DIR$/../dit_hybrid_framework/pom.xml" />
+        <option value="$PROJECT_DIR$/../dit_selenium_grid/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dit_testng_basics" />
+        <module name="dit_selenium_grid" />
         <module name="dit_objeect_identification" />
         <module name="dit_alerts_mousemovements" />
         <module name="dit_testng_advanced" />
@@ -21,6 +22,7 @@
       <module name="dit_logging_dataprovider" target="1.8" />
       <module name="dit_objeect_identification" target="1.8" />
       <module name="dit_selenium_advanced" target="8" />
+      <module name="dit_selenium_grid" target="1.8" />
       <module name="dit_testng_advanced" target="1.5" />
       <module name="dit_testng_basics" target="1.5" />
     </bytecodeTargetLevel>

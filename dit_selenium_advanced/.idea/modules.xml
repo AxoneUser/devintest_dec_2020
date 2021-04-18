@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/../dit_objeect_identification/dit_objeect_identification.iml" filepath="$PROJECT_DIR$/../dit_objeect_identification/dit_objeect_identification.iml" />
       <module fileurl="file://$PROJECT_DIR$/dit_selenium_advanced.iml" filepath="$PROJECT_DIR$/dit_selenium_advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dit_selenium_basics/dit_selenium_basics.iml" filepath="$PROJECT_DIR$/../dit_selenium_basics/dit_selenium_basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dit_selenium_grid/dit_selenium_grid.iml" filepath="$PROJECT_DIR$/../dit_selenium_grid/dit_selenium_grid.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dit_testng_advanced/dit_testng_advanced.iml" filepath="$PROJECT_DIR$/../dit_testng_advanced/dit_testng_advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dit_testng_basics/dit_testng_basics.iml" filepath="$PROJECT_DIR$/../dit_testng_basics/dit_testng_basics.iml" />
     </modules>

@@ -1,0 +1,51 @@
+Configuring the Hub:
+
+1. Download the selenium-server-standalone-3.141.59.jar
+2. Launch the command prompt / terminal
+3. Navigate to the directory where you copied selenium-server-standalone-3.141.59.jar
+
+Reference:
+https://www.selenium.dev/documentation/en/grid/grid_3/setting_up_your_own_grid/
+
+command 1: Start the Hub
+java -jar selenium-server-standalone.jar -role hub
+java -jar selenium-server-standalone-3.141.59.jar -role hub
+
+command 2: How to verify the grid is up and running
+http://localhost:4444/
+
+Command 3: How to stop
+ctrl + c
+
+Command 4: How to start the hub in different port:
+java -jar selenium-server-standalone-3.141.59.jar -role hub -port 5000
+
+Command 5: How to start the node.
+java -jar selenium-server-standalone.jar -role node -hub http://localhost:4444
+java -jar selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444 -port 5001
+
+command 6: browserName, maxInstance and maxSession
+maxInstance --> Max. no of browsers of a browser type. For eg. Chrome = 5
+java -Dwebdriver.chrome.driver="/Users/karthik/Documents/software/grid/chromedriver"  -jar selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444 -port 5001 -browser browserName=chrome,version=90.0.4430.72,maxInstances=3,platform=MAC -maxSession 2
+maxSession --> max. concurrent browsers of all types.
+
+command 7: starting the hub using JSON
+java -jar selenium-server-standalone.jar -role hub -hubConfig hubconfig.json
+java -jar selenium-server-standalone-3.141.59.jar -role hub -hubConfig /Users/karthik/Documents/workspace/axone_workspace/dit_dec_2020/devintest_dec_2020/dit_selenium_grid/src/test/resources/hubconfig.json
+
+command 8: starting the node using JSON
+java -Dwebdriver.chrome.driver="/Users/karthik/Documents/software/grid/chromedriver" -jar selenium-server-standalone-3.141.59.jar -role node -nodeConfig /Users/karthik/Documents/workspace/axone_workspace/dit_dec_2020/devintest_dec_2020/dit_selenium_grid/src/test/resources/nodeconfig.json
+
+
+
+useful urls:
+https://github.com/SeleniumHQ/selenium/wiki/Grid2
+https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities
+
+Docker:
+https://www.docker.com/get-started
+For Windows:
+https://www.tutorialspoint.com/windows10/windows10_virtualization.htm
+
+https://github.com/zalando/zalenium#getting-started
+
