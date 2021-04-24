@@ -1,0 +1,16 @@
+Plugins required:
+1. Cucumber for Java
+2. Gherkin
+
+Useful URLs:
+official website for Cucumber:
+https://cucumber.io/
+
+Installation:
+https://cucumber.io/docs/installation/java/
+
+Feature
+
+Runner
+
+Step Definition
