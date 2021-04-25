@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../dit_alerts_mousemovements/dit_alerts_mousemovements.iml" filepath="$PROJECT_DIR$/../dit_alerts_mousemovements/dit_alerts_mousemovements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dit_cucumber_basics/dit_cucumber_basics.iml" filepath="$PROJECT_DIR$/../dit_cucumber_basics/dit_cucumber_basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dit_hybrid_framework/dit_hybrid_framework.iml" filepath="$PROJECT_DIR$/../dit_hybrid_framework/dit_hybrid_framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dit_logging_dataprovider/dit_logging_dataprovider.iml" filepath="$PROJECT_DIR$/../dit_logging_dataprovider/dit_logging_dataprovider.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dit_objeect_identification/dit_objeect_identification.iml" filepath="$PROJECT_DIR$/../dit_objeect_identification/dit_objeect_identification.iml" />
       <module fileurl="file://$PROJECT_DIR$/dit_selenium_advanced.iml" filepath="$PROJECT_DIR$/dit_selenium_advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dit_selenium_basics/dit_selenium_basics.iml" filepath="$PROJECT_DIR$/../dit_selenium_basics/dit_selenium_basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dit_selenium_grid/dit_selenium_grid.iml" filepath="$PROJECT_DIR$/../dit_selenium_grid/dit_selenium_grid.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dit_testng_advanced/dit_testng_advanced.iml" filepath="$PROJECT_DIR$/../dit_testng_advanced/dit_testng_advanced.iml" />
       <module fileurl="file://$PROJECT_DIR$/../dit_testng_basics/dit_testng_basics.iml" filepath="$PROJECT_DIR$/../dit_testng_basics/dit_testng_basics.iml" />
     </modules>

@@ -7,6 +7,11 @@
         <option value="$PROJECT_DIR$/../dit_testng_basics/pom.xml" />
         <option value="$PROJECT_DIR$/../dit_testng_advanced/pom.xml" />
         <option value="$PROJECT_DIR$/../dit_objeect_identification/pom.xml" />
+        <option value="$PROJECT_DIR$/../dit_alerts_mousemovements/pom.xml" />
+        <option value="$PROJECT_DIR$/../dit_logging_dataprovider/pom.xml" />
+        <option value="$PROJECT_DIR$/../dit_hybrid_framework/pom.xml" />
+        <option value="$PROJECT_DIR$/../dit_selenium_grid/pom.xml" />
+        <option value="$PROJECT_DIR$/../dit_cucumber_basics/pom.xml" />
       </list>
     </option>
   </component>
