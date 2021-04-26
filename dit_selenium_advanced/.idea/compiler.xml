@@ -14,11 +14,13 @@
         <module name="dit_testng_advanced" />
         <module name="dit_selenium_advanced" />
         <module name="dit_logging_dataprovider" />
+        <module name="dit_cucumber_advanced" />
         <module name="dit_hybrid_framework" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dit_alerts_mousemovements" target="1.8" />
+      <module name="dit_cucumber_advanced" target="1.8" />
       <module name="dit_cucumber_basics" target="1.8" />
       <module name="dit_hybrid_framework" target="1.8" />
       <module name="dit_logging_dataprovider" target="1.8" />
